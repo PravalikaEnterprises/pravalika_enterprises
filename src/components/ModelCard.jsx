@@ -11,8 +11,8 @@ import auto5 from "../assets/Auto5.png";
 import auto6 from "../assets/Auto6.png";
 import deliveryVan2 from "../assets/delivery_van2.png";
 
-const phoneNumber = "tel:+918019602403";
-const whatsappLink = "https://wa.me/918019602403";
+const phoneNumber = "tel:+919959318263";
+const whatsappLink = "https://wa.me/919959318263";
 
 const models = [
   {
