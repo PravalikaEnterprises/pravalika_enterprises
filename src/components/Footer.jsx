@@ -11,14 +11,20 @@ const Footer = () => {
         {/* Left: Logo & Address */}
         <div className="space-y-4">
           <img src={assets.logo} alt="Logo" className="h-10" />
-          <div>
-            <h4 className="font-semibold">Address:</h4>
-            <p className="text-sm leading-relaxed">
-              D.No:31-58-26-8/1, Mathrusri Nagar, Kurmanapalem<br />
-              Near Duvvada Railway Station, Visakhapatnam - 530046 Andhra Pradesh, India.
-            </p>
-          </div>
-
+         <div>
+  <h4 className="font-semibold">Address:</h4>
+  <p className="text-sm leading-relaxed">
+    D.No:31-58-26-8/1, Mathrusri Nagar, Kurmanapalem<br />
+    Near Duvvada Railway Station, Visakhapatnam - 530046<br />
+    Andhra Pradesh, India.
+  </p>
+  <p className="text-sm mt-2">
+    <span className="font-semibold">Email:</span>{' '}
+    <a href="mailto:customerservice@pravalikaenterprises.com" className="hover:text-orange-500">
+      customerservice@pravalikaenterprises.com
+    </a>
+  </p>
+</div>
           {/* Social Icons */}
           <div>
             <p className="mb-2 font-semibold">Follow Us</p>
